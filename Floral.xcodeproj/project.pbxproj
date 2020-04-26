@@ -14,6 +14,11 @@
 		18027A0B245492950097D15C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18027A0A245492950097D15C /* Preview Assets.xcassets */; };
 		18027A0E245492950097D15C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18027A0C245492950097D15C /* LaunchScreen.storyboard */; };
 		18027A19245492950097D15C /* FloralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18027A18245492950097D15C /* FloralTests.swift */; };
+		18027A242454B0400097D15C /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18027A232454B0400097D15C /* Decoder.swift */; };
+		18027A262454B04E0097D15C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18027A252454B04E0097D15C /* Data.swift */; };
+		18027A282454B05C0097D15C /* cocktails.json in Resources */ = {isa = PBXBuildFile; fileRef = 18027A272454B05C0097D15C /* cocktails.json */; };
+		18027A2A2454F2410097D15C /* CocktailDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18027A292454F2410097D15C /* CocktailDetailView.swift */; };
+		18027A2C2454F3F80097D15C /* categories.json in Resources */ = {isa = PBXBuildFile; fileRef = 18027A2B2454F3F80097D15C /* categories.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,11 @@
 		18027A14245492950097D15C /* FloralTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloralTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18027A18245492950097D15C /* FloralTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloralTests.swift; sourceTree = "<group>"; };
 		18027A1A245492950097D15C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18027A232454B0400097D15C /* Decoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
+		18027A252454B04E0097D15C /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		18027A272454B05C0097D15C /* cocktails.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cocktails.json; sourceTree = "<group>"; };
+		18027A292454F2410097D15C /* CocktailDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailDetailView.swift; sourceTree = "<group>"; };
+		18027A2B2454F3F80097D15C /* categories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = categories.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +71,7 @@
 		180279F5245492920097D15C = {
 			isa = PBXGroup;
 			children = (
+				18027A292454F2410097D15C /* CocktailDetailView.swift */,
 				18027A00245492920097D15C /* Floral */,
 				18027A17245492950097D15C /* FloralTests */,
 				180279FF245492920097D15C /* Products */,
@@ -82,6 +93,10 @@
 				18027A01245492920097D15C /* AppDelegate.swift */,
 				18027A03245492920097D15C /* SceneDelegate.swift */,
 				18027A05245492920097D15C /* ContentView.swift */,
+				18027A252454B04E0097D15C /* Data.swift */,
+				18027A272454B05C0097D15C /* cocktails.json */,
+				18027A2B2454F3F80097D15C /* categories.json */,
+				18027A232454B0400097D15C /* Decoder.swift */,
 				18027A07245492950097D15C /* Assets.xcassets */,
 				18027A0C245492950097D15C /* LaunchScreen.storyboard */,
 				18027A0F245492950097D15C /* Info.plist */,
@@ -191,6 +206,8 @@
 				18027A0E245492950097D15C /* LaunchScreen.storyboard in Resources */,
 				18027A0B245492950097D15C /* Preview Assets.xcassets in Resources */,
 				18027A08245492950097D15C /* Assets.xcassets in Resources */,
+				18027A2C2454F3F80097D15C /* categories.json in Resources */,
+				18027A282454B05C0097D15C /* cocktails.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +226,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18027A02245492920097D15C /* AppDelegate.swift in Sources */,
+				18027A262454B04E0097D15C /* Data.swift in Sources */,
 				18027A04245492920097D15C /* SceneDelegate.swift in Sources */,
+				18027A2A2454F2410097D15C /* CocktailDetailView.swift in Sources */,
+				18027A242454B0400097D15C /* Decoder.swift in Sources */,
 				18027A06245492920097D15C /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,27 @@
+[
+    {
+        "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+        "name": "Mojo Blue",
+        "category": "Party Drinks",
+        "description": "It's blue. It's a bev.",
+        "glassware": "Hurricane",
+        "methodShort": "Build",
+    },
+    {
+        "id": "A4D89AF9-190E-4409-B924-AABD13DBB6A4",
+        "name": "Zombie",
+        "category": "Party Drinks",
+        "description": "On fire and all that jazz.",
+        "glassware": "Hurricane",
+        "methodShort": "Build"
+    },
+    {
+        "id": "E7584DB6-2EAE-4178-ADB2-9E5DBD5215EA",
+        "name": "Mojo Blue",
+        "category": "Party Drinks",
+        "description": "This is a description",
+        "glassware": "Hurricane",
+        "methodShort": "Build"
+    }
+
+]
