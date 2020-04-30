@@ -19,6 +19,8 @@
 		18027A282454B05C0097D15C /* cocktails.json in Resources */ = {isa = PBXBuildFile; fileRef = 18027A272454B05C0097D15C /* cocktails.json */; };
 		18027A2A2454F2410097D15C /* CocktailDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18027A292454F2410097D15C /* CocktailDetailView.swift */; };
 		18027A2C2454F3F80097D15C /* categories.json in Resources */ = {isa = PBXBuildFile; fileRef = 18027A2B2454F3F80097D15C /* categories.json */; };
+		18567C0B245B230A00A3914E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18567C0A245B230A00A3914E /* CardView.swift */; };
+		18567C0D245B23A000A3914E /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18567C0C245B23A000A3914E /* CategoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		18027A272454B05C0097D15C /* cocktails.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cocktails.json; sourceTree = "<group>"; };
 		18027A292454F2410097D15C /* CocktailDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailDetailView.swift; sourceTree = "<group>"; };
 		18027A2B2454F3F80097D15C /* categories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = categories.json; sourceTree = "<group>"; };
+		18567C0A245B230A00A3914E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		18567C0C245B23A000A3914E /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +75,6 @@
 		180279F5245492920097D15C = {
 			isa = PBXGroup;
 			children = (
-				18027A292454F2410097D15C /* CocktailDetailView.swift */,
 				18027A00245492920097D15C /* Floral */,
 				18027A17245492950097D15C /* FloralTests */,
 				180279FF245492920097D15C /* Products */,
@@ -90,13 +93,12 @@
 		18027A00245492920097D15C /* Floral */ = {
 			isa = PBXGroup;
 			children = (
-				18027A01245492920097D15C /* AppDelegate.swift */,
-				18027A03245492920097D15C /* SceneDelegate.swift */,
+				18567C0F245B241F00A3914E /* Delegates */,
+				18567C0E245B23FC00A3914E /* Data */,
 				18027A05245492920097D15C /* ContentView.swift */,
-				18027A252454B04E0097D15C /* Data.swift */,
-				18027A272454B05C0097D15C /* cocktails.json */,
-				18027A2B2454F3F80097D15C /* categories.json */,
-				18027A232454B0400097D15C /* Decoder.swift */,
+				18567C0A245B230A00A3914E /* CardView.swift */,
+				18567C0C245B23A000A3914E /* CategoryView.swift */,
+				18027A292454F2410097D15C /* CocktailDetailView.swift */,
 				18027A07245492950097D15C /* Assets.xcassets */,
 				18027A0C245492950097D15C /* LaunchScreen.storyboard */,
 				18027A0F245492950097D15C /* Info.plist */,
@@ -120,6 +122,26 @@
 				18027A1A245492950097D15C /* Info.plist */,
 			);
 			path = FloralTests;
+			sourceTree = "<group>";
+		};
+		18567C0E245B23FC00A3914E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				18027A252454B04E0097D15C /* Data.swift */,
+				18027A272454B05C0097D15C /* cocktails.json */,
+				18027A2B2454F3F80097D15C /* categories.json */,
+				18027A232454B0400097D15C /* Decoder.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		18567C0F245B241F00A3914E /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				18027A03245492920097D15C /* SceneDelegate.swift */,
+				18027A01245492920097D15C /* AppDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,11 +247,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18567C0B245B230A00A3914E /* CardView.swift in Sources */,
 				18027A02245492920097D15C /* AppDelegate.swift in Sources */,
 				18027A262454B04E0097D15C /* Data.swift in Sources */,
 				18027A04245492920097D15C /* SceneDelegate.swift in Sources */,
 				18027A2A2454F2410097D15C /* CocktailDetailView.swift in Sources */,
 				18027A242454B0400097D15C /* Decoder.swift in Sources */,
+				18567C0D245B23A000A3914E /* CategoryView.swift in Sources */,
 				18027A06245492920097D15C /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
